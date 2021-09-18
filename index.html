@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Vibes &amp; Things</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<h1>Dynamic Gallery</h1>
+	</header>
+	<nav> Changing image sizes based on browser </nav>
+
+	<main>
+		<h2> Plant</h2>
+		<picture>
+			<source media="(min-width:769px)" srcset="images/plant1.jpeg">
+			<source media="(min-width:426px)" srcset="images/plant2.jpeg">
+			<source media="(min-width:321px)" srcset="images/plant3.jpeg">
+			<img src="images/plant4.jpeg"style="width:200;height:200px;">  
+    </picture>
+    <hr>
+    <h2> Dogs </h2>
+    <picture>
+     <source media="(min-width:769px)"srcset="images/dog1.jpeg">
+      <source media="(min-width:426px)"srcset="images/dog2.jpeg">
+      <source media="(min-width:321px)"srcset="images/dog3.jpeg">    
+      <img src="images/dog4.jpeg"style="width:200;height:200px;">  
+    </picture>
+    <hr>
+    <h2> Buses </h2>
+    <picture>
+       <source media="(min-width:769px)"srcset="images/buses1.jpeg">
+      <source media="(min-width:426px)"srcset="images/buses2.jpeg">
+      <source media="(min-width:321px)"srcset="images/buses3.jpeg">    
+      <img src="images/buses4.jpeg"style="width:200;height:200px;">  
+      </picture>
+      <footer> <i>Keri Cutler 2021 &copy;<i></footer>
+
+	</main>
+      
+    
+  </body>
+</html>
